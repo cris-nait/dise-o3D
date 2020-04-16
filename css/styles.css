@@ -1,18 +1,85 @@
-section{
+/*Global*/
+section {
   border: 3px solid black;
-  padding: 20px;
 }
-header{
-    
+table {
+  border: 1px solid black;
 }
-
-body{
+body {
+  text-align: justify;
   display: flex;
   flex-direction: column;
-  margin: 0;
-  width: 100%;
-}
-#aquemededico{}
-    background-color: ;
+  border: 1px solid black;
 }
 
+/*Header*/
+#header {
+  text-align: center;
+}
+#menu img{
+  margin: 20px 0px 20px 0px;
+}
+#menu a {
+  display: inline-block;
+  text-decoration: none;
+  background-color: lightskyblue;
+  padding: 5px 60px 5px 60px;
+  margin: 20px 0px 20px 0px;
+  color: black;
+  width: 15%;
+  border-radius: 5px;
+  line-height: normal;
+
+}
+#menu a:hover {
+  color: white;
+  background-color: dodgerblue;
+}
+#menu a:active {
+  color: dodgerblue;
+}
+#menu #btnCEO {
+  background-color: lightsalmon;
+}
+
+/*Quién soy*/
+#whoIam{
+  display: flex;
+  padding: 20px 50px 20px 50px;
+}
+
+#whoIAm #slide{
+  background-color: black;
+  width: 30%;
+  height: 5px;
+  border-radius: 50%;
+  transform: rotate(1deg);
+}
+#whoIam #iAm{
+  margin: 0px 0px 0px 50px;
+}
+#whoIam #iAmGraphicDesigner{
+  font-size: 20px;
+}
+
+/*Cómo puedo ayudarte*/
+#howCanIHelpYou {
+  text-align: center;
+}
+#howCanIHelpYou div{
+  display: flex;
+  padding: 0px 20px 20px 20px;
+}
+
+#howCanIHelpYou div article{
+  padding: 20px 20px 20px 20px;
+  margin: 0px 50px 0px 50px;
+  border: 3px solid cornflowerblue;
+  background-color: salmon;
+  color: white;
+}
+
+/*Footer*/
+#footer{
+  text-align: center;
+}
